@@ -1,0 +1,36 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .about-content h1,
+  .about-content h2 {
+    color: #c0bebe;
+  }
+  
+  .about-content p {
+    color: #b8b8b8;
+    line-height: 1.6;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-content {
+      width: 90%;
+      padding: 15px;
+    }
+  }
+  

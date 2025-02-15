@@ -1,0 +1,72 @@
+/* General Styling */
+.align {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+  gap: 5vw;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box1 {
+  color: rgb(0, 0, 0);
+  width: 80vw;
+  max-width: 600px;
+  height: auto;
+  padding: 20px;
+  align-items: center;
+}
+
+p {
+  margin: 5%;
+  font-size: 1.2rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.cent {
+  margin-top: 7%;
+  color: antiquewhite;
+  text-align: center;
+}
+
+h4 {
+  padding: 10px;
+  margin: 2px;
+  font-size: 2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .align {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .box1 {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 768px) {
+  p {
+    font-size: 1rem;
+  }
+
+  h3, h4 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  p {
+    font-size: 0.9rem;
+  }
+
+  h3, h4 {
+    font-size: 1.2rem;
+  }
+}
